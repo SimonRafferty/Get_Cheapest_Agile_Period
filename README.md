@@ -3,8 +3,12 @@ Find the cheapest contiguous period on an Agile tariff to deliver a certain amou
 
 Designed to run on an ESP32.
 In the code, change the following lines:
-  const float ChargekWh = 10; //How much charge in kWh do you want to put into the battery tonight?
-  const float ChargePower = 2.5; //What battery charge power have you set on the Inverter?
+
+  //How much charge in kWh do you want to put into the battery tonight?
+  const float ChargekWh = 10; 
+  
+  //What battery charge power have you set on the Inverter?
+  const float ChargePower = 2.5; 
 
 In the above, I want to put 10kWh into my batteries and I want them to charge at 2.5kW.
 
