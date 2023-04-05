@@ -12,6 +12,13 @@ In the code, change the following lines:
 ```
 In the above, I want to put 10kWh into my batteries and I want them to charge at 2.5kW.
 
+The Serial monitor will show something like:
+```
+Start the charge at: 1.50 Hours past midnight 
+Charge will cost: £2.03
+```
+Note: 1.50 Hours is not 1:50 am, it's one and a half hours past midnight.
+
 I have a Solis Inverter & find if I charge above 2.5kW, the cooling fans switch on & wake everyone up!
 However with the 12kWh of batteries I have, that's plenty!
 
